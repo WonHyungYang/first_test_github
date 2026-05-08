@@ -19,6 +19,6 @@ def _merge(left, right):
 
 
 if __name__ == "__main__":
-    data = [64, 34, 25, 12, 22, 11, 90]
+    data = list(map(int, input("숫자를 공백으로 구분해 입력하세요: ").split()))
     print("정렬 전:", data)
     print("정렬 후:", merge_sort(data))
